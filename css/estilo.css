@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+}
+
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#logo{
+    height: 120px;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-inline: 20px;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+  color: white;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+#principal {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+ main > #principal img{
+  height: 450px;
+}
+
+main.m > #principal > figure > #capa{
+  width: 300px;
+  height: 200px;
+
+}
+#sec_ctd h1{
+  text-align:right;
+  font-size:40px;
+  margin-right: -60px;
+  margin-top: -50px;
+}
+
+#capa{
+  height:0px;
+}
+#sec_ctd > p{
+  width: 450px;
+  text-align: justify;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  
+}
+h1, h2 {
+  font-family: 'Amatic SC';
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 50px;
+}
+
+.cartaz img{
+  width: 300px;
+}
+
+#second a{
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  height: 50px;
+  padding-top: 5px;;
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+
+#email > a{
+  text-decoration: none;
+  color: white;
+}
+
+#social a > img{
+  height: 40px;
+  margin: 5px;
+}
+
+#acesso {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Amatic SC';
+  font-size: x-large;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#descricao iframe {
+  width: 450px;
+  height: 250px;
+}
+
+#descricao {
+  border: solid lightgrey;
+  padding: 30px;
+}
+
+#descricao ol {
+  width: 400px;
+}
+
+.m a > img {
+  height: 50px;
+  margin: 10px;
+}
